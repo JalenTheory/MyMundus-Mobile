@@ -4,7 +4,11 @@ Team leader: Constantin Gavrilete
 
 List of GitHub accounts: cgav, <TODO siva>, <TODO maimuna>
 
-Description of the web app: MyMundus (www.mymundus.com) provides a simple cross-browser, cross-device bookmarking service. The aim of this group is to create a mobile version for it. Bookmarks with corresponding screenshots get loaded from the server, can be created by the mobile web app and can also be edited. To have an easy and convenient way to create new bookmarks the web app will come with an virtual browser in which the user can surf the web. Whenever he stumbles upon an interesting link, a click on the MyMundus button will add the page to his bookmark list.
+Description of the web app: MyMundus (www.mymundus.com) provides a simple cross-browser, cross-device bookmarking 
+service. The aim of this group is to create a mobile version for it. Bookmarks with corresponding screenshots get 
+loaded from the server, can be created by the mobile web app and can also be edited. To have an easy and convenient 
+way to create new bookmarks the web app will come with an virtual browser in which the user can surf the web. 
+Whenever he stumbles upon an interesting link, a click on the MyMundus button will add the page to his bookmark list.
 
 Key use cases:
 1. Retrieving bookmarks from server (and synchronization)
@@ -17,16 +21,19 @@ Client: PhoneGap, JavaScript, jQuery, Underscore.js, HTML5
 Server: Ruby on Rails, RESTful communication
 
 Target devices:
-iPhone with iOS4+, Nokia N9 (<TODO: I don't know if we can put it here since it will not work with PhoneGap>), <TODO: more devices, @Maimuna: you have windows phone right?>
+iPhone with iOS4+, Nokia N9 (<TODO: I don't know if we can put it here since it will not work with PhoneGap>), 
+<TODO: more devices, @Maimuna: you have windows phone right?>
 
 How it fulfills the 3 assignment criteria:
 1. HTML5 key API
-- Offline storage for bookmarks and screenshots. When the user opens the app he does not want to wait 5-10 seconds until the bookmarks are received from the server.
+- Offline storage for bookmarks and screenshots. When the user opens the app he does not want to wait 5-10 
+seconds until the bookmarks are received from the server.
 - WebSockets for client/server communication.
 - CSS3 Animations for transitions between several tabs of the virtual web browser.
 2. Mobile device feature
 - Network, new screenshot images are not loaded from the server when the user's network connection is less then 3g.
 - Accelerometer, when the user shakes his device the bookmarks will get synchronized.
-- System information, by having an unique device ID the authentication process will be easier for the user. (not provided by PhoneGap, device tweaks necessary)
+- System information, by having an unique device ID the authentication process will be easier for the user. 
+(not provided by PhoneGap, device tweaks necessary)
 3. Client / server communication
 - RESTful communication for retrieving, saving, updating and deleting bookmarks.

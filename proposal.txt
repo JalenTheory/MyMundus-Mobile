@@ -2,7 +2,7 @@ Name of the team: MyMundus Mobile, Team12
 
 Team leader: Constantin Gavrilete
 
-List of GitHub accounts: cgav, sivabalan, <TODO maimuna>
+List of GitHub accounts: cgav, sivabalan, jalentheory
 
 Description of the web app: MyMundus (www.mymundus.com) provides a simple cross-browser, cross-device bookmarking 
 service. The aim of this group is to create a mobile version for it. Bookmarks with corresponding screenshots get 
@@ -21,8 +21,7 @@ Client: PhoneGap, JavaScript, jQuery, Underscore.js, HTML5
 Server: Ruby on Rails, RESTful communication
 
 Target devices:
-iPhone with iOS4+, Nokia N9 (Might work), 
-<TODO: more devices, @Maimuna: you have windows phone right?>
+iPhone with iOS4+, Nokia N9 (Might work)
 
 How it fulfills the 3 assignment criteria:
 1. HTML5 key API
